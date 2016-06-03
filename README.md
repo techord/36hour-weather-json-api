@@ -1,14 +1,14 @@
-# 36hour-weather-json-api
+#36hour-weather-json-api
 
 A simple JSON API server for getting the JSON format of current 36-hour weather information of a city in Taiwan.
 
-I have hosted it on Heroku: [https://radiant-citadel-99024.herokuapp.com](https://radiant-citadel-99024.herokuapp.com)
+I host it on Heroku: [https://radiant-citadel-99024.herokuapp.com](https://radiant-citadel-99024.herokuapp.com)
 
 You can also download and run yourself.
 
 example:
 
-url: http://localhost:3000/0
+[https://radiant-citadel-99024.herokuapp.com/0](https://radiant-citadel-99024.herokuapp.com/0)
 
 ```javascript
 { number: 0,
@@ -33,6 +33,30 @@ url: http://localhost:3000/0
        max: '28',
        min: '23' } ] }
 ```
+|city|number|
+|---|---| 
+|臺北市| 0 |
+|新北市|1|
+|桃園市|2|
+|臺中市|3|
+|臺南市|4|
+|高雄市|5|
+|基隆市|6|
+|新竹縣|7|
+|新竹市|8|
+|苗栗縣|9|
+|彰化縣|10|
+|南投縣|11|
+|雲林縣|12|
+|嘉義縣|13|
+|嘉義市|14|
+|屏東縣|15|
+|宜蘭縣|16|
+|花蓮縣|17|
+|臺東縣|18|
+|澎湖縣|19|
+|金門縣|20|
+|連江縣|21|
 
 ## Dependencies
 * Express

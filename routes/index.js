@@ -91,11 +91,12 @@ router.get('/:id', function(req, res, next) {
 
                 cities[citynum] = json;
                 
-                //console.log(cities[citynum]);
+                console.log(cities[citynum].city);
                 
             });
             //console.log(cities[0]);
             res.cities = cities[req.params.id];
+
             next();
         } else {
             console.log("擷取錯誤：" + error);
