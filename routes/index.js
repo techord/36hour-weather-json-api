@@ -15,6 +15,13 @@ function timesimpler(s) {
     return t1 + ' ' + t2 + ':00';
 };
 /* GET home page. */
+
+
+router.get('/', function(req, res, next){
+    res.send("You are using  a JSON API for current 36-hour weather of a city in Taiwan. </br> Give this url a parameter 0~21 for 台北市 to 連江縣.");
+});
+
+
 router.get('/:id', function(req, res, next) {
     //console.log(req.params);
     //
